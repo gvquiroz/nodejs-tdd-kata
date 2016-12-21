@@ -3,7 +3,7 @@
     "chai": "^3.5.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha tests --recursive"
   },
   "dependencies": {
    "chai": "^3.5.0",
