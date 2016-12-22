@@ -1,8 +1,7 @@
 // src/cart-summary.js
-function CartSummary() {}
-
-CartSummary.prototype.getSubtotal = function() {
-  return 0;
-};
-
+function CartSummary() {
+  this.getSubtotal = function getSubtotal() {
+    return 0;
+  };
+}
 module.exports = CartSummary;
